@@ -9,7 +9,7 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
     <link
-      rel="Assets/style.css"
+      rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,9 +30,58 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div id="time-block" class="row time-block">
+
+          <div class="hour col-lg-1 pt-4">8:00 AM</div>
+          <textarea id = "8AM" class="description col-xs-1 col-sm-8 col-md-10"></textarea>
+          <button type="button" class="saveBtn btn-secondary btn-lg" disabled>Save</button>
+
+          <div class="hour col-md-1 pt-4">9:00 AM</div>
+          <textarea id = "9AM" class="description col-xs-1 col-sm-8 col-md-10"></textarea>
+          <button type="button" class="saveBtn btn-secondary btn-lg" disabled>Save</button>
+
+          <div class="hour col-md-1 pt-4 pr-0">10:00 AM</div>
+          <textarea id = "10AM" class="description col-xs-1 col-sm-8 col-md-10"></textarea>
+          <button type="button" class="saveBtn btn-secondary btn-lg" disabled>Save</button>
+
+          <div class="hour col-lg-1 pt-4 pr-0">11:00 AM</div>
+          <textarea id = "11AM" class="description col-xs-1 col-sm-8 col-md-10"></textarea>
+          <button type="button" class="saveBtn btn-secondary btn-lg" disabled>Save</button>
+
+          <div class="hour col-md-1 pt-4 pr-0">12:00 PM</div>
+          <textarea id = "12PM" class="description col-xs-1 col-sm-8 col-md-10"></textarea>
+          <button type="button" class="saveBtn btn-secondary btn-lg" disabled>Save</button>
+
+          <div class="hour col-md-1 pt-4 pr-0">13:00 PM</div>
+          <textarea id = "13PM" class="description col-xs-1 col-sm-8 col-md-10"></textarea>
+          <button type="button" class="saveBtn btn-secondary btn-lg" disabled>Save</button>
+
+          <div class="hour col-md-1 pt-4 pr-0">14:00 PM</div>
+          <textarea id = "14PM" class="description col-xs-1 col-sm-8 col-md-10"></textarea>
+          <button type="button" class="saveBtn btn-secondary btn-lg" disabled>Save</button>
+
+          <div class="hour col-md-1 pt-4 pr-0">15:00 PM</div>
+          <textarea id = "15PM" class="description col-xs-1 col-sm-8 col-md-10"></textarea>
+          <button type="button" class="saveBtn btn-secondary btn-lg" disabled>Save</button>
+
+          <div class="hour col-md-1 pt-4 pr-0">16:00 PM</div>
+          <textarea id = "16PM" class="description col-xs-1 col-sm-8 col-md-10"></textarea>
+          <button type="button" class="saveBtn btn-secondary btn-lg" disabled>Save</button>
+
+          <div class="hour col-md-1 pt-4 pr-0">17:00 PM</div>
+          <textarea id = "17PM" class="description col-xs-1 col-sm-8 col-md-10"></textarea>
+          <button type="button" class="saveBtn btn-secondary btn-lg" disabled>Save</button>
+
+          <div class="hour col-md-1 pt-4 pr-0">18:00 PM</div>
+          <textarea id = "18PM" class="description col-xs-1 col-sm-8 col-md-10"></textarea>
+          <button type="button" class="saveBtn btn-secondary btn-lg" disabled>Save</button>
+
+
+      </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./Assets/script.js"></script>
 </html>
