@@ -30,4 +30,4 @@ THEN the saved events persist
 
 The following image shows the web application's appearance and functionality:
 
-(Assets\img\Capture.PNG)
+![WorkDayScheduler](Assets\img\Capture.PNG)
