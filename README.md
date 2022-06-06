@@ -2,16 +2,18 @@
 
 I really struggled with the local storage aspect of the project. I was still not able to figure it out. I will keep researching and ask my intructor. 
 
-
 #Git Hub Repository Link: https://github.com/Rodash4/WorkDaySchedulerAR
+
 #URL: https://rodash4.github.io/WorkDaySchedulerAR/
 
 #User Story
+
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
 #Acceptance Criteria
+
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
